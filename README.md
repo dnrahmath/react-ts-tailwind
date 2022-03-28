@@ -7,6 +7,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 
+
+_____________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________
+
+
+### `yarn install`
+
+install package yang diperlukan untuk menjalankan reactjs dengan tamplate typescript. <br />
+install node_modules for package <br />
+<br />
+<pre>sudo npm i -g yarn</pre> 			
+<pre>yarn install</pre> <br />			
+<pre>sudo yarn create react-app react-ts-frontend --template typescript</pre> 			
+<pre>sudo chmod -R 777 react-ts-frontend</pre> 			
+<pre>cd react-ts-frontend</pre> 			
+<br /> **[ menjalankan sebelum dibuild ]** 
+<br /> <pre>yarn start</pre>
+<pre>yarn build</pre> 
+<br /> **[ menjalankan serve static di folder ./build ]** 
+<br /> <pre>serve -s build</pre>	 
+<br />
+<br />
+<br />
+<br />
+
+
 ### `npm install`
 <pre>npm i bcryptjs --save    #untuk mengecrypt password</pre>
 <pre>npm i jsonwebtoken --save    #untuk membuat session yang disimpan di auth setip melakukan request</pre>
@@ -15,28 +41,45 @@ In the project directory, you can run:
 <pre>npm i react-router-dom@6.2.1 --save    #untuk memaikai feature router di React</pre>
 <br />
 
-### `yarn install`
 
-install package yang diperlukan untuk menjalankan reactjs dengan tamplate typescript. <br />
-install node_modules for package <br />
-<pre>sudo npm i -g yarn</pre> 			
-<pre>yarn install</pre> <br />			
-<pre>sudo yarn create react-app react-ts-frontend --template typescript</pre> 			
-<pre>sudo chmod -R 777 react-ts-frontend</pre> 			
-<pre>cd react-ts-frontend</pre> 			
-<br /> [ menjalankan sebelum dibuild ] <br /> <pre>yarn start</pre>
-<pre>yarn build</pre> 
-<br /> [ menjalankan serve static di folder ./build ] <br /> <pre>serve -s build</pre>	 
+
+_____________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________
+
+
+### `React TS - Bootstrap`
+
+<br /> https://getbootstrap.com/docs/5.1/getting-started/download/#yarn
+<br /> https://classic.yarnpkg.com/en/package/bootstrap
+
+<br /> React Typescript dan Bootstrap			<br />
+	<pre>yarn add bootstrap</pre> 
+	
+<br />			
+Once you have Bootstrap installed, go ahead and include it in your app’s entry JavaScript file. If you are used to <strong>create-react-app</strong> this should be your <strong>src/index.js</strong> file.
+<pre>import 'bootstrap/dist/css/bootstrap.min.css';</pre> 
 <br />
+<br />
+
+
+_____________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________
+
+
+### `React TS - Tailwinds`
+
 <br /> React Typescript dan Tailwinds			https://www.youtube.com/watch?v=zx_879gAoYo	<br />
 	<pre>yarn add tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^8 autoprefixer@^9</pre> 			
 	<pre>yarn add uuid @types/uuid @tailwindcss/forms</pre> 
 	<pre>yarn tailwindcss init</pre> 
 				
 <br /> tidak usah pakai craco      
-https://stackoverflow.com/questions/70403417/typeerror-match-loader-options-plugins-is-not-a-function/70409552	<br />
+<br /> https://stackoverflow.com/questions/70403417/typeerror-match-loader-options-plugins-is-not-a-function/70409552
 <br />
 <br />
+
+_____________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________
 
 
 ### `yarn start`
