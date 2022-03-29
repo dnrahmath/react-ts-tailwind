@@ -38,7 +38,12 @@ install node_modules for package <br />
 <pre>npm i jsonwebtoken --save    #untuk membuat session yang disimpan di auth setip melakukan request</pre>
 <pre>npm i randomstring --save    #untuk membuat random string</pre>
 <br />
+<br />
+<br />
 <pre>npm i react-router-dom@6.2.1 --save    #untuk memaikai feature router di React</pre>
+<pre>npm i node-sass --save    #untuk disambungkan dengan bootstrap</pre>
+<br />https://designmodo.com/bootstrap-react-sass/
+<br />@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 <br />
 
 
