@@ -41,9 +41,6 @@ install node_modules for package <br />
 <br />
 <br />
 <pre>npm i react-router-dom@6.2.1 --save    #untuk memaikai feature router di React</pre>
-<pre>npm i node-sass --save    #untuk disambungkan dengan bootstrap</pre>
-<br />https://designmodo.com/bootstrap-react-sass/
-<br />@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 <br />
 
 
@@ -63,6 +60,18 @@ ________________________________________________________________________________
 <br />			
 Once you have Bootstrap installed, go ahead and include it in your app’s entry JavaScript file. If you are used to <strong>create-react-app</strong> this should be your <strong>src/index.js</strong> file.
 <pre>import 'bootstrap/dist/css/bootstrap.min.css';</pre> 
+<br />
+
+<pre>npm i node-sass --save    #untuk disambungkan dengan bootstrap</pre>
+<br />https://designmodo.com/bootstrap-react-sass/
+<pre>@import "../../../node_modules/bootstrap/scss/bootstrap.scss";</pre>
+<br />
+
+---
+
+<br />
+<pre>import 'bootstrap/dist/js/bootstrap.min.js';</pre> 
+<pre>npm i @popperjs/core --save    #untuk mengunakan js pada bootstrap</pre> 
 <br />
 <br />
 
