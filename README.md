@@ -40,7 +40,8 @@ install node_modules for package <br />
 <br />
 <br />
 <br />
-<pre>npm i react-router-dom@6.2.1 --save    #untuk memaikai feature router di React</pre>
+<pre>npm i react-router-dom@6.2.1 --save      #untuk memakai feature router di React</pre>
+<pre>npm i @types/react-scroll --save-dev     #untuk memakai feature scroll di React</pre>
 <br />
 
 
