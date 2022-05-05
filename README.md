@@ -41,7 +41,11 @@ install node_modules for package <br />
 <br />
 <br />
 <pre>npm i react-router-dom@6.2.1 --save      #untuk memakai feature router di React</pre>
-<pre>npm i @types/react-scroll --save-dev     #untuk memakai feature scroll di React</pre>
+<br />
+<pre>yarn add @types/react-scroll --save         #untuk memakai feature scroll di React</pre>
+<pre>yarn add react-scroll --save     	      #untuk memakai feature scroll di React</pre>
+<br />https://yarnpkg.com/package/react-scroll		#install
+<br />https://www.npmjs.com/package/react-scroll	#doc
 <br />
 
 
