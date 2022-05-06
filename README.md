@@ -33,7 +33,7 @@ install node_modules for package <br />
 <br />
 
 
-### `npm install`
+### `npm install` dan `yarn install`
 <pre>npm i bcryptjs --save    #untuk mengecrypt password</pre>
 <pre>npm i jsonwebtoken --save    #untuk membuat session yang disimpan di auth setip melakukan request</pre>
 <pre>npm i randomstring --save    #untuk membuat random string</pre>
@@ -42,11 +42,15 @@ install node_modules for package <br />
 <br />
 <pre>npm i react-router-dom@6.2.1 --save      #untuk memakai feature router di React</pre>
 <br />
+_____________________________________________________________________________________________________________________________________
 <pre>yarn add @types/react-scroll --save         #untuk memakai feature scroll di React</pre>
 <pre>yarn add react-scroll --save     	      #untuk memakai feature scroll di React</pre>
 <br />https://yarnpkg.com/package/react-scroll		#install
 <br />https://www.npmjs.com/package/react-scroll	#doc
 <br />
+_____________________________________________________________________________________________________________________________________
+<br />
+<pre>yarn add html-react-parser --save     	      #untuk memakai feature html string to ReactDOM di React</pre>
 
 
 
